@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="shrine_pink_50">#FFFBFA</color>
-    <color name="shrine_pink_100">#FFDBCF</color>
-    <color name="shrine_pink_200">#FFDBCF</color>
-    <color name="shrine_pink_900">#442c2e</color>
+    <color name="shrine_pink_50">#fefbfa</color>
+    <color name="shrine_pink_100">#fadcd1</color>
+    <color name="shrine_pink_200">#eacbc2</color>
+    <color name="shrine_pink_900">#402c2d</color>
 </resources>
