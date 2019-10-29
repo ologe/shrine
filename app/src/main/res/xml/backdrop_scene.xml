@@ -6,7 +6,7 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
-        motion:duration="@android:integer/config_mediumAnimTime">
+        motion:duration="@android:integer/config_shortAnimTime">
        <KeyFrameSet>
        </KeyFrameSet>
         <OnSwipe motion:touchAnchorId="@+id/frontPage" />
