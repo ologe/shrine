@@ -8,7 +8,6 @@
 
         <item name="colorSurface">@color/shrine_pink_50</item>
         <item name="colorOnSurface">@color/shrine_pink_900</item>
-
         <item name="android:textColorPrimary">@color/shrine_pink_900</item>
 
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
