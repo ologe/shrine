@@ -2,5 +2,7 @@
 <resources>
     
     <dimen name="backdrop_height">64dp</dimen>
+
+    <dimen name="button_size">48dp</dimen>
     
 </resources>
