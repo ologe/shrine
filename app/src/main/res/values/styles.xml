@@ -27,6 +27,10 @@
         <item name="textAppearanceCaption">@style/Caption</item>
         <item name="textAppearanceOverline">@style/Overline</item>
 
+        <item name="shapeAppearanceSmallComponent">@style/Shape.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.LargeComponent</item>
+
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
     </style>
 

@@ -64,18 +64,17 @@
 
     </FrameLayout>
 
-    <dev.olog.shrine.widgets.CutFrameLayout
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/frontPage"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="?colorSurface"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:cutRadius="36dp"
-        android:elevation="8dp">
+        app:shapeAppearance="@style/Shape.LargeComponent"
+        app:elevation="8dp">
 
-    </dev.olog.shrine.widgets.CutFrameLayout>
+    </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
