@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' } // TODO for canary 1
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.0.0-alpha01'
@@ -20,7 +20,14 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' } // TODO for canary 1
+    }
+
+    gradle.projectsEvaluated { // TODO remove after coroutines became stable
+        tasks.withType(org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile).all {
+            kotlinOptions.freeCompilerArgs += ["-Xuse-experimental=kotlinx.coroutines.FlowPreview"]
+            kotlinOptions.freeCompilerArgs += ["-Xuse-experimental=kotlinx.coroutines.ExperimentalCoroutinesApi"]
+        }
     }
 }
 
