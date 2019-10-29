@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="@android:integer/config_shortAnimTime"
+        motion:motionInterpolator="easeInOut">
+
+       <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/menuIcon"
+               motion:framePosition="50"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/menuIcon"
+               motion:framePosition="100"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/logoIcon"
+               motion:framePosition="100"
+               android:translationX="-15dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/header"
+               motion:framePosition="100"
+               android:translationX="-15dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/menuIcon"
+               motion:framePosition="100"
+               android:translationX="-15dp" />
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>
