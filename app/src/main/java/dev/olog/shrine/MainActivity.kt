@@ -2,6 +2,8 @@ package dev.olog.shrine
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import dev.olog.shrine.filter.FilterFragment
+import dev.olog.shrine.products.ProductsFragment
 
 class MainActivity : AppCompatActivity() {
 
