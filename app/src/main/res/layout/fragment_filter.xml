@@ -3,6 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/activity_main_scene"
-    app:showPaths="true"
-    android:id="@+id/content"/>
+    app:layoutDescription="@xml/fragment_filter_scene"
+    android:background="?colorPrimary"
+    android:id="@+id/filterContent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar"/>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

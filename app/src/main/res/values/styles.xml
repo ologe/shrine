@@ -6,7 +6,10 @@
         <item name="colorPrimaryDark">@color/shrine_pink_200</item>
         <item name="colorAccent">@color/shrine_pink_900</item>
 
-        <item name="colorSurface">@color/shrine_pink_50</item>
+        <item name="colorSecondary">@color/shrine_pink_50</item>
+        <item name="colorOnSecondary">@color/shrine_pink_900</item>
+
+        <item name="colorSurface">@color/shrine_pink_10</item>
         <item name="colorOnSurface">@color/shrine_pink_900</item>
         <item name="android:textColorPrimary">@color/shrine_pink_900</item>
 
