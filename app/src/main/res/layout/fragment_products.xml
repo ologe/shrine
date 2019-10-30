@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/fragment_products_scene"
-    android:id="@+id/productsContent">
+    android:id="@+id/productsContent"
+    app:showPaths="true">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/frontPage"

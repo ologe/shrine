@@ -6,7 +6,8 @@
     app:layoutDescription="@xml/layout_toolbar_scene"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent">
+    app:layout_constraintTop_toTopOf="parent"
+    app:showPaths="true">
 
     <ImageView
         android:id="@+id/menuIcon"

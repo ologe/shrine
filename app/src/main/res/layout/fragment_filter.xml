@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     app:layoutDescription="@xml/fragment_filter_scene"
     android:background="?colorPrimary"
-    android:id="@+id/filterContent">
+    android:id="@+id/filterContent"
+    app:showPaths="true">
 
     <include
         android:id="@+id/toolbar"
