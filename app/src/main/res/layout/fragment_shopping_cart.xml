@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:elevation="8dp"
     app:layoutDescription="@xml/fragment_shopping_cart_scene"
-    app:showPaths="true">
+    app:showPaths="true"
+    android:id="@+id/shoppingCartContent">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vd_shopping_cart"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/miniList"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:shapeAppearance="@style/Shape.CartFab" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

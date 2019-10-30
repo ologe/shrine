@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import dev.olog.shrine.filter.FilterFragment
 import dev.olog.shrine.products.ProductsFragment
+import dev.olog.shrine.shopping.cart.ShoppingCartFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                 .add(R.id.content, FilterFragment())
                 .add(R.id.content, ProductsFragment())
-//                .add(R.id.content, ShoppingCartFragment())
+                .add(R.id.content, ShoppingCartFragment())
                 .commit()
         }
     }
