@@ -8,7 +8,6 @@
         motion:duration="@android:integer/config_shortAnimTime">
 
         <OnClick motion:targetId="@id/toolbarTouchableArea" motion:clickAction="toggle"/>
-        <OnSwipe motion:dragDirection="dragDown"  />
 
     </Transition>
 

@@ -33,7 +33,7 @@
        </KeyFrameSet>
     </Transition>
 
-    <ConstraintSet android:id="@+id/backdrop_expanded">
+    <ConstraintSet>
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/backdrop_collapsed">
