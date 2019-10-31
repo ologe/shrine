@@ -8,6 +8,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/vd_shopping_cart"
-        app:shapeAppearance="@style/Shape.CartFab" />
+        app:shapeAppearance="@style/Shape.CartFab"
+        android:focusable="false"
+        android:clickable="false"/>
 
 </FrameLayout>

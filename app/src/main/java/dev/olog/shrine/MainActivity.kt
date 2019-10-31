@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
                 .add(R.id.content, FilterFragment())
                 .add(R.id.content, ProductsFragment())
                 .add(R.id.content, ShoppingCartFragment())
-                .commit()
+                .commitNow()
         }
     }
 }

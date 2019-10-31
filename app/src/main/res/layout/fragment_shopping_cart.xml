@@ -8,11 +8,38 @@
     app:showPaths="true"
     android:id="@+id/shoppingCartContent">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/miniList"
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/scrim"
+        android:layout_height="64dp"
+        android:layout_width="128dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        app:shapeAppearance="?shapeAppearanceLargeComponent"
+        app:cardBackgroundColor="@color/shrine_pink_50"
+        app:cardElevation="0dp"
+        app:rippleColor="@null"/>
+
+    <include layout="@layout/layout_shopping_cart_expanded"/>
+
+    <ImageButton
+        android:id="@+id/fab"
+        android:background="@null"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/vd_shopping_cart"
+        android:focusable="false"
+        android:clickable="false"
+        app:layout_constraintTop_toTopOf="@+id/scrim"
+        app:layout_constraintStart_toStartOf="@+id/scrim"/>
+
+    <dev.olog.shrine.shopping.cart.TestRecyclerView
+        android:id="@+id/miniList"
+        app:layout_constraintTop_toTopOf="@+id/scrim"
+        app:layout_constraintStart_toStartOf="@+id/scrim"
+        app:layout_constraintEnd_toEndOf="@+id/scrim"
+        app:layout_constraintBottom_toBottomOf="@+id/scrim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

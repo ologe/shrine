@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package dev.olog.shrine
+package dev.olog.shrine.utils
 
 import android.content.Context
 import android.graphics.Color
