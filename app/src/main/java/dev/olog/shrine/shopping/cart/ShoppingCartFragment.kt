@@ -30,7 +30,7 @@ class ShoppingCartFragment : Fragment(R.layout.fragment_shopping_cart), MotionLa
 
     override fun onTransitionChange(view: MotionLayout, startId: Int, endId: Int, progress: Float) {
         if (startId == R.id.start && endId == R.id.end){
-            scrim.progress = MathUtils.clamp(1f - progress, 0f, 1f)
+            contentContainer.progress = MathUtils.clamp(1f - progress, 0f, 1f)
         }
     }
 
